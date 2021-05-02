@@ -288,8 +288,7 @@ const IndexPage = () => (
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
-              Develop highly scalable, cross browser compatible and WCAG
-              complaint applications
+              Design and develop highly scalable Machine learning models.
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
@@ -298,8 +297,8 @@ const IndexPage = () => (
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Monitoring website performance and rectifying front-end-related
-              issues and providing hotfixes for clients.
+              Monitoring model performance and hypertuning to improve the
+              relevancy and compatibility.
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
@@ -312,12 +311,17 @@ const IndexPage = () => (
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging
+              Platform Integration testing &amp; Debugging
             </li>
 
             <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Functional Teams
+              Review the code and ensure proper best practices are followed
+              across the products
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Mentoring the team members.
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
