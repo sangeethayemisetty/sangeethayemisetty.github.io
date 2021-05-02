@@ -9,6 +9,25 @@ import gadget from "../assets/images/tablet.svg";
 import travel from "../assets/images/trekking.svg";
 import ai from "../assets/images/ai.svg";
 import scikit from "../assets/images/scikit.svg";
+import seaborn from "../assets/images/seaborn.svg";
+import opencv from "../assets/images/opencv.svg";
+import git from "../assets/images/git.svg";
+import postgres from "../assets/images/postgres.svg";
+import django from "../assets/images/django.svg";
+import tf from "../assets/images/tensorflow.svg";
+import spark from "../assets/images/spark.svg";
+import gcp from "../assets/images/gcp.svg";
+import aws from "../assets/images/aws.svg";
+import java from "../assets/images/java.svg";
+import python from "../assets/images/python.svg";
+import nlp from "../assets/images/nlp.svg";
+import dl from "../assets/images/dl.svg";
+import ml from "../assets/images/ml.svg";
+import keras from "../assets/images/keras.svg";
+import matplotlib from "../assets/images/matplotlib.svg";
+import numpy from "../assets/images/numpy.svg";
+import pandas from "../assets/images/pandas.svg";
+import torch from "../assets/images/pytorch.svg";
 
 // import { Link } from 'gatsby';
 import Sidebar from "../components/Sidebar";
@@ -75,20 +94,192 @@ const IndexPage = () => (
           <ul className="list-inline dev-icons">
             <li className="list-inline-item ai">
               <a
-                href="https://www.w3schools.com/html/"
+                href="https://en.wikipedia.org/wiki/Artificial_intelligence"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={ai} className="item" alt="sports" />
+                <img src={ai} className="item" alt="AI" />
+              </a>
+            </li>
+            <li className="list-inline-item dl">
+              <a
+                href="https://en.wikipedia.org/wiki/Deep_learning"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={dl} className="item" alt="Deep Learning" />
+              </a>
+            </li>
+            <li className="list-inline-item nlp">
+              <a
+                href="https://en.wikipedia.org/wiki/Natural_language_processing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={nlp} className="item" alt="NLP" />
+              </a>
+            </li>
+            <li className="list-inline-item ml">
+              <a
+                href="https://en.wikipedia.org/wiki/Machine_learning"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={ml} className="item" alt="Machine Learning" />
+              </a>
+            </li>
+            <li className="list-inline-item numpy">
+              <a
+                href="https://numpy.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={numpy} className="item" alt="Numpy" />
+              </a>
+            </li>
+            <li className="list-inline-item pandas">
+              <a
+                href="https://pandas.pydata.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={pandas} className="item" alt="Pandas" />
+              </a>
+            </li>
+            <li className="list-inline-item matplotlib">
+              <a
+                href="https://matplotlib.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={matplotlib} className="item" alt="Matplotlib" />
+              </a>
+            </li>
+            <li className="list-inline-item seaborn">
+              <a
+                href="https://seaborn.pydata.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={seaborn} className="item" alt="Seaborn" />
+              </a>
+            </li>
+            <li className="list-inline-item tf">
+              <a
+                href="https://www.tensorflow.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={tf} className="item" alt="TensorFlow" />
+              </a>
+            </li>
+            <li className="list-inline-item keras">
+              <a
+                href="https://keras.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={keras} className="item" alt="Keras" />
+              </a>
+            </li>
+            <li className="list-inline-item torch">
+              <a
+                href="https://pytorch.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={torch} className="item" alt="PyTorch" />
+              </a>
+            </li>
+            <li className="list-inline-item django">
+              <a
+                href="https://www.djangoproject.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={django} className="item" alt="Django" />
+              </a>
+            </li>
+            <li className="list-inline-item python">
+              <a
+                href="https://www.python.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={python} className="item" alt="Python" />
+              </a>
+            </li>
+
+            <li className="list-inline-item gcp">
+              <a
+                href="https://cloud.google.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={gcp} className="item" alt="GCP" />
+              </a>
+            </li>
+            <li className="list-inline-item aws">
+              <a
+                href="https://aws.amazon.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={aws} className="item" alt="AWS" />
+              </a>
+            </li>
+            <li className="list-inline-item java">
+              <a
+                href="https://www.java.com/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={java} className="item" alt="Java" />
+              </a>
+            </li>
+            <li className="list-inline-item postgres">
+              <a
+                href="https://www.postgresql.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={postgres} className="item" alt="Postgres" />
+              </a>
+            </li>
+            <li className="list-inline-item spark">
+              <a
+                href="https://spark.apache.org/docs/latest/api/python/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={spark} className="item" alt="Spark" />
+              </a>
+            </li>
+            <li className="list-inline-item opencv">
+              <a
+                href="https://opencv.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={opencv} className="item" alt="OpenCV" />
+              </a>
+            </li>
+            <li className="list-inline-item git">
+              <a
+                href="https://git-scm.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={git} className="item" alt="Git" />
               </a>
             </li>
             <li className="list-inline-item scikit">
               <a
-                href="https://www.w3schools.com/html/"
+                href="https://scikit-learn.org/stable/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={scikit} className="item" alt="sports" />
+                <img src={scikit} className="item" alt="SkLearn" />
               </a>
             </li>
           </ul>
